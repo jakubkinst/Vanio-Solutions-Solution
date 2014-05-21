@@ -14,17 +14,20 @@
   ```shell
   mongod run
   ```
+
 5. Install app
-  ```shell
-  git clone https://github.com/jakubkinst/Vanio-Solutions-Solution.git
-  cd Vanio-Solutions-Solution
-  npm install
-  bower install
-  ```
+    ```shell
+    git clone https://github.com/jakubkinst/Vanio-Solutions-Solution.git
+    cd Vanio-Solutions-Solution
+    npm install
+    bower install
+    ```
+
 6. Run backend
   ```shell
   node backend.js
   ```
+
 7. Run frontend
   ```shell
   grunt serve
