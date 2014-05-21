@@ -10,7 +10,7 @@ mongod run
 ```
 3. Install app
 ```shell
-git clone XXX
+git clone https://github.com/jakubkinst/Vanio-Solutions-Solution.git
 cd solution
 npm install
 bower install
