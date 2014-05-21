@@ -2,26 +2,31 @@
 
 #### Install
 
-0. Install NodeJS (http://nodejs.org/download)
+1. Install NodeJS (http://nodejs.org/download)
 
-1. Install MongoDB (http://www.mongodb.org/downloads)
+2. Install Bower
+```shell
+npm install -g bower
+```
 
-2. Run MongoDB
+3. Install MongoDB (http://www.mongodb.org/downloads)
+
+4. Run MongoDB
 ```shell
 mongod run
 ```
-3. Install app
+5. Install app
 ```shell
 git clone https://github.com/jakubkinst/Vanio-Solutions-Solution.git
 cd Vanio-Solutions-Solution
 npm install
 bower install
 ```
-4. Run backend
+6. Run backend
 ```shell
 node backend.js
 ```
-5. Run frontend
+7. Run frontend
 ```shell
 grunt serve
 ```
